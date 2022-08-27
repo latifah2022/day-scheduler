@@ -2,8 +2,6 @@
 var todayDate = moment();
 $("#currentDay").text(todayDate.format('dddd, MMM Do YYYY,  h:mm:ss a'));
 
-//var currentHour = Number(currentDay.format('H'));
-
 $(document).ready(function () {
     //  click listener 
     $(".saveBtn").on("click", function () {
